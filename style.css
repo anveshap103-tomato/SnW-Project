@@ -9,24 +9,24 @@ body {
   /* background-color: #01122b; */
   color: #e6edf3;
   line-height: 1.6;
-  /* height: 200vh; */
-  background: linear-gradient(#0d1117,#000f26);
+  height: 200vh;
+  background: linear-gradient(#000207,#030c19);
 }
 
 header {
   text-align: center;
-  padding: 2rem;
+  padding: 32px;
   background: linear-gradient(90deg, #011327, #00c6ff);
   color: white;
 }
 
 header h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+  font-size: 35px;
+  margin-bottom: 0px;
 }
 
 header p {
-  font-size: 1.1rem;
+  font-size: 20px;
 }
 
 .tips {
@@ -36,7 +36,7 @@ header p {
   padding: 2rem;
 }
 
-.tip-card {
+.tip {
   background-color: #161b22;
   border: 1px solid #30363d;
   border-radius: 12px;
@@ -44,13 +44,13 @@ header p {
   transition: transform 0.3s ease, background 0.3s ease;
 }
 
-.tip-card:hover {
+.tip:hover {
   background-color: #1f6feb;
   transform: translateY(-5px);
 }
 
-.tip-card h2 {
-  color: #58a6ff;
+.tip h2 {
+  color: #09789a;
   margin-bottom: 0.5rem;
 }
 
