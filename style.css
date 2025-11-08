@@ -6,8 +6,7 @@
 
 body {
   font-family: "Poppins", Arial, sans-serif;
-  /* background-color: #01122b; */
-  color: #e6edf3;
+  color: #292b2b;
   line-height: 1.6;
   height: 200vh;
   background: linear-gradient(#000207,#030c19);
@@ -31,26 +30,32 @@ header p {
 
 .tips {
   display: grid;
-  grid-template-columns: repeat(2, minmax(280px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
   padding: 2rem;
+  background-color: #edf2f7;
 }
 
 .tip {
-  background-color: #161b22;
-  border: 1px solid #30363d;
+  background-color: #edf2f7;
+  /* border: 1px solid #30363d; */
   border-radius: 12px;
   padding: 1.5rem;
   transition: transform 0.3s ease, background 0.3s ease;
+  box-shadow: 0 4px 6px rgba(92, 91, 91, 0.1);
 }
 
 .tip:hover {
-  background-color: #1f6feb;
   transform: translateY(-5px);
+  h2 {
+    color: #61050e;
+  }
 }
 
+
+
 .tip h2 {
-  color: #09789a;
+  color: #0a0a0a;
   margin-bottom: 0.5rem;
 }
 
@@ -62,3 +67,4 @@ footer {
   font-size: 0.9rem;
   margin-top: 1rem;
 }
+
