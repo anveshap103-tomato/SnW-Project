@@ -11,6 +11,10 @@ body {
   height: 200vh;
 }
 
+body:hover {
+cursor: all-scroll;
+}
+
 nav {
 display: flex;
     justify-content: center;
@@ -36,7 +40,7 @@ a:active {
 header {
   text-align: center;
   /* padding: 32px; */
-  background: linear-gradient(90deg, #021228, #01190c);
+  background: linear-gradient(90deg, #021228, #02425b);
   color: white;
   position: relative;
 }
@@ -120,6 +124,7 @@ header p {
   h2 {
     color: #61050e;
   }
+  cursor: -webkit-grab;
 }
 
 .tip-image {
