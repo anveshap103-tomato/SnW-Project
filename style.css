@@ -38,6 +38,11 @@ a:active {
 
 
 header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
   text-align: center;
   /* padding: 32px; */
   background: linear-gradient(90deg, #021228, #02425b);
@@ -256,32 +261,9 @@ footer {
 
 }
 
-@media (max-width: 1024px) {
-  header h1 {
-    font-size: 50px;
-    left: 8%;
-    top: 28%;
-  }
-
-  header p {
-    font-size: 28px;
-    left: 15%;
-    top: 46%;
-  }
-
-  .tips {
-    grid-template-columns: 1fr 1fr;
-    padding: 1.5rem;
-  }
-
-  .tip-image {
-    width: 250px;
-    height: 200px;
-    margin: 0 auto;
-  }
-}
 
 @media (max-width: 1024px) {
+
   header h1 {
     font-size: 50px;
     left: 8%;
@@ -309,9 +291,19 @@ footer {
     margin: 0;
   }
 
+  footer {
+    width: 100%;
+  }
+
 }
 
 @media (max-width: 480px) {
+
+  header {
+    height: 300px;
+    width: 100%;
+  }
+
   header h1 {
     font-size: 32px;
     top: 22%;
@@ -351,4 +343,7 @@ footer {
     width: 80%;
     margin-bottom: 8px;
   }
+  footer{
+    width: 100%;
+  };
 }
