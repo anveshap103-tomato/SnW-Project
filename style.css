@@ -16,11 +16,13 @@ cursor: all-scroll;
 }
 
 nav {
-display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 15px;
-background-color:black;}
+    background-color:black;
+    width: 100%;
+}
 a{
     color: white;
     margin-left: 20px;
